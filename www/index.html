@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="">
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav>
+<ul class="tabs">
+    <li class="tab"><a href="#home" data-role="pagelink" id="icon" class="activetab"><i class="fa fa-home"></i></a></li>
+    <li class="tab"><a href="#stuff" data-role="pagelink" id="icon" class=""><i class="fa fa-globe"></i></a></li>
+    <li class="tab"><a href="#other" data-role="pagelink" id="icon" class=""><i class="fa fa-users"></i></a></li>
+</ul>
+</nav>
+
+<div data-role="page" id="home" class="">
+  <div data-role="content">
+    <h1>Bacon</h1>
+    <p>This is the most revolutionary app of 2015. This app is dedicated to all things bacon: making bacon, selling bacon and most importantly eating bacon. This app can find your current location so that the magical bacon elves can deliver bacon to you as fast and easy as possible. It's also easy to let your friends know about this amazing app with our totally not creepy contact display, this allows you to see a friends phone number so you can tell them about it. Currently our app is only available for Android as Apples are one of the few foods bacon isn't too good with.</p>
+  </div>
+</div>
+
+<div data-role="page" id="stuff" class="hidden">
+  <div data-role="content">
+      <h2>Bacon Tracking System</h2>
+      <div id="output">
+      </div>
+
+  </div>
+    <span id="test"></span>
+</div>
+
+
+<div data-role="page" id="other" class="hidden">
+  <div data-role="content">
+    <h3>Contact</h3>
+  </div>
+    <div id="contactd"></div>
+</div>
+    <script src="cordova.js"></script>
+    <script src="js/fastclick.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
